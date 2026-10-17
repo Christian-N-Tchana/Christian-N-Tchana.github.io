@@ -108,3 +108,18 @@ p:not(.role):not(.affiliation):not(.project-meta), .project-content p {text-alig
 .project-content a:hover,.education a:hover,.affiliation a:hover,.ref-grid a:hover,.student a:hover {color:#1b6288;}
 .sidebar .affiliation span {display:block;}
 @media (max-width:650px){p:not(.role):not(.affiliation):not(.project-meta),.project-content p{text-align:left;hyphens:auto;} .student-photo-placeholder{width:80px;height:80px;}}
+
+/* FINAL OVERRIDES — readable, aligned text without awkward hyphenation */
+html, body { overflow-x: clip; }
+main p, .project-content p, #about p, .student p {
+  text-align: justify !important; text-justify: inter-word;
+  hyphens: none !important; -webkit-hyphens: none !important;
+  overflow-wrap: normal; word-break: normal;
+}
+.sidebar, .aside-section, .keywords {min-width: 0;}
+.sidebar .affiliation {font-size: 12px; line-height: 1.6;}
+.sidebar .affiliation span {max-width: 100%; overflow-wrap: normal;}
+@media (max-width: 700px) {
+ main p, .project-content p, #about p, .student p {text-align:left !important;}
+ .sidebar .affiliation {font-size: 12px;}
+}

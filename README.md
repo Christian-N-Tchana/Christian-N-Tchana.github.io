@@ -1,14 +1,6 @@
-# Christian N. Tchana — academic website
+# Christian N. Tchana — Academic Website
+Revision: 17 October 2026.
 
-Static website for GitHub Pages. Upload `index.html`, `style.css` and `profile.png` to the repository root.
+To publish, upload **index.html**, **style.css**, **profile.png**, and optionally README.md to the repository root at https://github.com/Christian-N-Tchana/Christian-N-Tchana.github.io . Do not upload the ZIP itself or the containing folder. Wait for the latest GitHub Actions deployment to succeed. Open https://christian-n-tchana.github.io/ and verify the footer says **Site revision 17 Oct 2026**. If not, check Settings > Pages deployment branch `main` and `/(root)` and refresh the page without cache.
 
-## Add the Yaoundé campus poster
-1. Create an `assets` folder at the repository root.
-2. Upload your PDF as `assets/yaounde-campus-birds-poster.pdf`.
-3. In `index.html`, find the link `class="poster-link"` and remove the `hidden` attribute from it.
-4. Remove or edit the nearby `PDF to be added` placeholder.
-
-## Add student portraits
-Replace each `.student-photo-placeholder` block in `index.html` with an `<img src="assets/anaelle.jpg" alt="Anaelle Bakami">` (or `meline.jpg`) and add the photographs under `assets/`. Ask permission before posting other people's photographs.
-
-All external institutional links and citations should be checked occasionally for changes.
+The campus poster PDF link is hidden until `assets/yaounde-campus-birds-poster.pdf` is uploaded. Student photographs are placeholders.
