@@ -95,3 +95,16 @@ main p,.project-content p,.student p{text-align:justify;text-justify:inter-word;
 @media(max-width:1000px){.layout{grid-template-columns:295px minmax(0,1fr);gap:34px}.affiliation{font-size:10.7px}}
 @media(max-width:720px){.layout{display:block}.sidebar{max-width:510px}.affiliation{font-size:11.7px}}
 @media(max-width:390px){.affiliation{font-size:10.3px}}
+
+/* Final refinements */
+body, .project-content p, #about p, .student p {hyphens:auto;}
+p:not(.role):not(.affiliation):not(.project-meta), .project-content p {text-align:justify;text-justify:inter-word;}
+.project summary {cursor:pointer;}
+.year-heading {font-size:1.12rem; margin:2.1rem 0 .7rem; color:#20394c; font-weight:700;}
+.student-photo-placeholder {width:94px;height:94px;border-radius:14px;background:#edf1f4;border:1px dashed #a6b5c3;display:flex;align-items:center;justify-content:center;color:#657584;text-align:center;font-size:.8rem;margin:.7rem 0 1rem;padding:.7rem;}
+.poster-placeholder {margin-top:1.2rem;background:#f3f7f8;border:1px dashed #b5c8d0;border-radius:8px;padding:.75rem 1rem;}
+.quiet {color:#687787;}
+.project-content a,.education a,.affiliation a,.ref-grid a,.student a {color:inherit;text-decoration:underline;text-decoration-color:#bdcbd4;text-underline-offset:3px;}
+.project-content a:hover,.education a:hover,.affiliation a:hover,.ref-grid a:hover,.student a:hover {color:#1b6288;}
+.sidebar .affiliation span {display:block;}
+@media (max-width:650px){p:not(.role):not(.affiliation):not(.project-meta),.project-content p{text-align:left;hyphens:auto;} .student-photo-placeholder{width:80px;height:80px;}}
