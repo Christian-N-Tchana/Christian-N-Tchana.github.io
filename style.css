@@ -133,3 +133,6 @@ main p, .project-content p, #about p, .student p {
 #publications h2{margin-bottom:12px}
 #publications{padding-top:25px;padding-bottom:30px}
 .student-photo-placeholder{font-size:0;color:transparent;background:#edf1f4}
+
+/* Students have no portrait frames. */
+.student-photo-placeholder{display:none !important}

@@ -6,3 +6,5 @@ To publish, upload **index.html**, **style.css**, **profile.png**, and optionall
 The campus poster PDF link is hidden until `assets/yaounde-campus-birds-poster.pdf` is uploaded. Student photographs are placeholders.
 
 Latest revision: campus project integrated into urban greenspaces; ProCAB title adjusted; compact publications; student portrait placeholders blank.
+
+Revision: Urban greenspaces is the only urban project; no independent campus project. Student photograph placeholders removed.
