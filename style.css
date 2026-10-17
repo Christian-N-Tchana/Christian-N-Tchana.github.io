@@ -33,3 +33,65 @@ main h2{font-size:clamp(23px,2.3vw,29px);letter-spacing:-.025em;margin-bottom:17
 .ref-grid>div{padding:14px}
 @media(max-width:980px){.layout{grid-template-columns:245px minmax(0,1fr);gap:30px}.portrait{width:205px;height:205px}.affiliation{font-size:11px}}
 @media(max-width:690px){.layout{display:block}.sidebar{max-width:460px}.affiliation{font-size:12.5px}.student-grid{grid-template-columns:1fr}.top nav{gap:10px}.top nav a{font-size:12px}}
+
+/* Refined editorial design, October 2026 */
+:root{--ink:#293a47;--navy:#213d54;--blue:#24678a;--line:#e1e8ec;--muted:#596b77;--soft:#f8fafb}
+body{font-family:"Source Sans 3", "Segoe UI", sans-serif;font-size:16px;line-height:1.69;-webkit-font-smoothing:antialiased}
+.layout{max-width:1150px;grid-template-columns:272px minmax(0,1fr);gap:66px;padding-top:48px}
+.top-inner{max-width:1150px;padding-block:13px}
+.top nav a{font-size:13.5px;transition:color .2s ease}
+main h2{font-family:"Libre Baskerville",Georgia,serif;font-size:clamp(21px,2vw,25px);font-weight:700;letter-spacing:-.03em;margin:0 0 20px}
+main h3,.ref-heading{font-size:17px}
+main section{padding:31px 0 41px;scroll-margin-top:85px}
+main section:first-child{padding-top:0}
+main p,.project-content p,.student p{text-align:justify;text-align-last:left;text-justify:inter-word;hyphens:auto;overflow-wrap:break-word}
+main p{max-width:75ch}
+.project{border:1px solid var(--line);border-radius:8px;overflow:hidden;box-shadow:0 1px 2px rgba(15,37,54,.025);transition:border-color .2s ease,box-shadow .2s ease}
+.project:hover{border-color:#bad0de;box-shadow:0 4px 16px rgba(20,53,73,.045)}
+.project summary{padding:17px 47px 17px 20px;min-height:56px;display:flex;align-items:center}
+.project summary:hover{background:#f5f9fb}
+.project summary::after{top:50%;transform:translateY(-50%);font-size:22px}
+.project summary .project-name{font-size:15.7px;font-weight:650;color:var(--navy);line-height:1.47;margin:0}
+.project[open] summary{background:#f4f8fa}
+.project-content{padding:19px 23px 9px}
+.project-content p{max-width:none}
+.project-content .project-meta{font-size:13.3px;font-weight:700;letter-spacing:.012em;color:var(--blue);text-align:left;margin-bottom:13px}
+.group-heading{font-size:16px;margin:27px 0 14px}
+.cite-item{padding:19px 0 21px}
+.pub-title{font-size:17px;line-height:1.49;margin:0 0 7px;font-weight:700}
+.pub-title a{color:var(--navy);text-decoration:none}
+.pub-title a:hover{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.cite-item .tag{font-family:"Source Sans 3",sans-serif;font-size:11px;vertical-align:middle;white-space:nowrap}
+.cite-item .meta{font-size:13.7px;line-height:1.55;margin-top:6px}
+.student-grid{grid-template-columns:1fr;gap:11px}
+.student{padding:18px 20px;background:#fff;border-radius:7px}
+.student h3{margin:4px 0 6px}
+.student p{max-width:none}
+.sidebar h1{font-family:"Libre Baskerville",Georgia,serif;font-size:19px;line-height:1.45}
+.role{font-size:13.4px}
+.affiliation{white-space:normal;font-size:12.5px}
+.affiliation span{display:block}
+.portrait{width:218px;height:218px}
+.portrait img{object-fit:cover;object-position:center 28%}
+.keywords span{font-size:11.8px}
+.ref-grid>div{border-radius:6px;background:#fff}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+@media(max-width:980px){.layout{grid-template-columns:235px minmax(0,1fr);gap:32px}.portrait{height:194px;width:194px}}
+@media(max-width:690px){.layout{display:block;padding:26px 21px 60px}.top-inner{padding:11px 18px}.top nav{flex-wrap:nowrap;overflow-x:auto;gap:17px;padding-bottom:6px}.top nav a{white-space:nowrap}.brand{font-size:15px}.sidebar{margin-bottom:34px}.portrait{height:192px;width:192px}main section{padding-block:28px 35px}main p,.project-content p,.student p{text-align:justify;hyphens:auto}.project-content{padding:16px 16px 7px}.project summary{padding-left:15px} .project summary .project-name{font-size:14.5px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.project,.top nav a{transition:none}}
+
+/* Final academic identity and usability adjustments */
+.layout{max-width:1220px;grid-template-columns:330px minmax(0,1fr);gap:58px}
+.sidebar{min-width:0}
+.sidebar h1{font-size:20px}
+.role{font-size:13.2px;line-height:1.52;max-width:310px;margin-left:auto;margin-right:auto}
+.affiliation{font-size:11.7px;line-height:1.62;letter-spacing:-.14px;text-align:center;display:flex;flex-direction:column;gap:0;margin:8px auto 25px}
+.affiliation span{display:block;white-space:nowrap}
+.portrait img{object-fit:cover;object-position:50% 34%}
+main p,.project-content p,.student p{text-align:justify;text-justify:inter-word;hyphens:auto}
+.project-content p:last-child{margin-bottom:13px}
+.project summary{user-select:none}
+.project summary:focus-visible{outline-offset:-3px}
+@media(max-width:1000px){.layout{grid-template-columns:295px minmax(0,1fr);gap:34px}.affiliation{font-size:10.7px}}
+@media(max-width:720px){.layout{display:block}.sidebar{max-width:510px}.affiliation{font-size:11.7px}}
+@media(max-width:390px){.affiliation{font-size:10.3px}}
