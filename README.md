@@ -1,5 +1,3 @@
-# Christian N. Tchana — Academic Website
+# Christian N. Tchana — Academic website
 
-Static website for GitHub Pages. Upload `index.html`, `style.css` and `profile.png` to the root of `Christian-N-Tchana.github.io`.
-
-The layout is inspired by academic one-page portfolio sites with section navigation. Edit the HTML content to update your profile.
+GitHub Pages site. Upload `index.html`, `style.css` and `profile.png` to the root of `Christian-N-Tchana.github.io`.
