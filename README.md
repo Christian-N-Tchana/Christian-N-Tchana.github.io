@@ -1,3 +1,1 @@
-# Christian N. Tchana — Academic website
-
-GitHub Pages site. Upload `index.html`, `style.css` and `profile.png` to the root of `Christian-N-Tchana.github.io`.
+Christian N. Tchana — academic website. Upload index.html, style.css and profile.png to the repository root. GitHub Pages: deploy from main / (root). Project descriptions are expandable using native HTML details elements.
