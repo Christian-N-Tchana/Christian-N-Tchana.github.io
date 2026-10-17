@@ -1,2 +1,35 @@
  :root{--ink:#253646;--navy:#183c58;--blue:#176b97;--line:#e2e9ef;--muted:#657482;--paper:#fff;--soft:#f6f9fb}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.72 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}h1,h2,h3,h4{line-height:1.26;color:var(--navy)}.top{position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10}.top-inner{max-width:1200px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:16px 25px;gap:20px}.brand{font-size:17px;color:var(--navy);font-weight:750}.top nav{display:flex;gap:25px;flex-wrap:wrap}.top nav a{font-size:14px;font-weight:600;color:#495c6b}.layout{max-width:1200px;margin:0 auto;padding:58px 25px 100px;display:grid;grid-template-columns:285px minmax(0,1fr);gap:75px}.sidebar{align-self:start}.portrait{height:238px;width:238px;background:#eaf0f3;border-radius:50%;overflow:hidden;margin:0 auto 22px;display:flex;justify-content:center;align-items:flex-end}.portrait img{width:100%;height:100%;object-fit:contain;object-position:center bottom;transform:scale(1.10);transform-origin:center bottom}.sidebar h1{text-align:center;font-size:24px;margin:0 0 8px}.role{text-align:center;font-size:14px;font-weight:650;color:var(--ink);line-height:1.5;margin:0 0 9px}.affiliation{text-align:center;font-size:13px;line-height:1.55;color:var(--muted);margin:0 0 25px}.aside-section{padding:24px 0;border-top:1px solid var(--line)}.aside-section h2{font-size:17px;margin:0 0 14px}.keywords{display:flex;flex-wrap:wrap;gap:7px}.keywords span{font-size:12px;border:1px solid #dce7ed;border-radius:4px;background:var(--soft);padding:5px 9px;color:#375a6e}.education{list-style:none;margin:0;padding:0}.education li{font-size:13px;line-height:1.48;padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid #edf1f3}.education li:last-child{margin-bottom:0;border:0;padding:0}.education strong{font-size:13px;color:var(--navy)}.education small{font-size:12px;color:var(--muted)}.profile-links{border-top:1px solid var(--line);padding-top:18px;display:flex;gap:15px;font-size:13px;font-weight:700}main{min-width:0}main section{padding:37px 0 46px;border-bottom:1px solid var(--line)}main section:first-child{padding-top:0}main section:last-child{border:0}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:11px;font-weight:800;color:#387c95}main h2{font-size:clamp(27px,3vw,35px);margin:7px 0 22px}main p{margin:0 0 16px}.group-heading{font-size:20px;margin:30px 0 13px}.project{border-left:3px solid #dce7ef;padding:4px 0 13px 18px;margin:0 0 20px}.project h4{font-size:18px;margin:4px 0 10px}.project p{margin:0;color:#4a5a66}.tag{font-size:12px;color:#427c93;font-weight:700}.count{font-size:16px;color:var(--muted);font-weight:500}.note,.muted{font-size:14px;color:var(--muted)}.cite-item{border-bottom:1px solid var(--line);padding:18px 0}.cite-item:last-child{border:0}.cite-item .sub{text-transform:uppercase;letter-spacing:.05em;color:#42758b;font-size:12px;font-weight:750}.pub-title{font-size:17px;font-weight:750;line-height:1.45;margin:6px 0}.cite-item .meta{color:var(--muted);font-size:14px;margin-top:5px}.tag:not(.project .tag){display:inline-block}.cite-item .tag{background:#e7f3ec;color:#206c51;border-radius:3px;padding:1px 6px;margin-left:7px}.contact-list{display:grid;gap:13px;margin-bottom:42px}.contact-list>div{display:grid;grid-template-columns:90px minmax(0,1fr);gap:14px}.contact-list strong{color:var(--navy)}.contact-list a{overflow-wrap:anywhere}.ref-heading{font-size:22px;margin:10px 0 18px}.ref-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.ref-grid>div{background:var(--soft);padding:17px;border:1px solid var(--line);border-radius:4px}.ref-grid strong{display:block}.ref-grid span{display:block;color:var(--muted);font-size:13px;margin-top:3px}footer{font-size:13px;color:var(--muted);text-align:center;background:var(--soft);padding:25px 15px}@media(max-width:900px){.layout{grid-template-columns:240px minmax(0,1fr);gap:30px}.portrait{height:210px;width:210px}}@media(max-width:690px){.top-inner{display:block}.top nav{margin-top:8px;gap:16px}.layout{display:block;padding:32px 20px 55px}.sidebar{max-width:500px;margin:0 auto 40px}.aside-section{padding:20px 0}.portrait{width:205px;height:205px}.ref-grid{grid-template-columns:1fr}main section{padding:32px 0}.contact-list>div{grid-template-columns:1fr;gap:1px}}
+
+/* Academic refinements — October 2026 */
+body{font-family:Inter,"Segoe UI",Arial,sans-serif;font-size:15px;line-height:1.76}
+main p,.project-content p,.student p {text-align:justify;text-justify:inter-word;hyphens:auto}
+main h2{font-size:clamp(23px,2.3vw,29px);letter-spacing:-.025em;margin-bottom:17px}
+.group-heading{font-size:17px;margin:29px 0 16px}
+.sidebar h1{font-size:21px;letter-spacing:-.015em}
+.aside-section h2{font-size:16px}
+.top nav{gap:18px}
+.layout{grid-template-columns:300px minmax(0,1fr);gap:58px}
+.portrait{width:232px;height:232px;align-items:center}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;transform:none}
+.role{font-size:13.5px;line-height:1.45}
+.affiliation{font-size:12.5px;line-height:1.45;display:flex;flex-direction:column;gap:2px;white-space:nowrap}
+.project{border:1px solid var(--line);border-left:3px solid #bfd0dd;border-radius:5px;margin:0 0 12px;padding:0;background:#fff}
+.project summary{cursor:pointer;list-style:none;position:relative;padding:17px 46px 17px 19px}
+.project summary::-webkit-details-marker{display:none}
+.project summary::after{content:'+';position:absolute;right:18px;top:23px;font-size:21px;font-weight:400;color:var(--blue)}
+.project[open] summary::after{content:'−'}
+.project summary:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.project summary strong{display:block;font-size:16px;line-height:1.4;color:var(--navy);margin-top:4px}
+.project[open] summary{background:var(--soft);border-bottom:1px solid var(--line)}
+.project-content{padding:18px 20px 13px}
+.project-content p{color:#3d5060;margin:0 0 16px}
+.project-content .supervisors{background:#f7f9fb;padding:11px 14px;border-left:2px solid #aac4d6;font-size:13.5px;text-align:left}
+.intro{color:var(--muted)}
+.student-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.student{border:1px solid var(--line);border-radius:5px;padding:20px;background:var(--soft)}
+.student h3{font-size:17px;margin:6px 0 9px}
+.student p{font-size:14px;margin-bottom:0}
+.ref-grid>div{padding:14px}
+@media(max-width:980px){.layout{grid-template-columns:245px minmax(0,1fr);gap:30px}.portrait{width:205px;height:205px}.affiliation{font-size:11px}}
+@media(max-width:690px){.layout{display:block}.sidebar{max-width:460px}.affiliation{font-size:12.5px}.student-grid{grid-template-columns:1fr}.top nav{gap:10px}.top nav a{font-size:12px}}
