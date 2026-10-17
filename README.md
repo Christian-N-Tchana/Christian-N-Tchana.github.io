@@ -1,10 +1,28 @@
-# Christian N. Tchana — Academic Website
-Revision: 17 October 2026.
+# Christian N. Tchana — Academic website
 
-To publish, upload **index.html**, **style.css**, **profile.png**, and optionally README.md to the repository root at https://github.com/Christian-N-Tchana/Christian-N-Tchana.github.io . Do not upload the ZIP itself or the containing folder. Wait for the latest GitHub Actions deployment to succeed. Open https://christian-n-tchana.github.io/ and verify the footer says **Site revision 17 Oct 2026**. If not, check Settings > Pages deployment branch `main` and `/(root)` and refresh the page without cache.
+Static site hosted through GitHub Pages.
 
-The campus poster PDF link is hidden until `assets/yaounde-campus-birds-poster.pdf` is uploaded. Student photographs are placeholders.
+## Publishing
 
-Latest revision: campus project integrated into urban greenspaces; ProCAB title adjusted; compact publications; student portrait placeholders blank.
+Upload the files `index.html`, `style.css`, `profile.png` to the ROOT of your GitHub Pages repository. Keep the `assets` folder.
 
-Revision: Urban greenspaces is the only urban project; no independent campus project. Student photograph placeholders removed.
+## Making the urban bird poster public
+
+GitHub Pages has no server-side upload feature: you cannot drag a PDF onto the public website and permanently publish it. Instead:
+
+1. On GitHub, open your site repository.
+2. Open the `assets` folder. If absent, create the folder using `Add file → Create new file` with the name `assets/.gitkeep`.
+3. Select **Add file → Upload files** and drag your PDF there.
+4. Rename your PDF **urban-birds-poster.pdf** before uploading (exact name, including capitalization).
+5. Click **Commit changes** and wait for GitHub Pages deployment.
+
+The poster will automatically appear with an embedded preview and a link opening the full public PDF in the 'Urban greenspaces, avian diversity and zoonotic risk' project once uploaded. The public PDF address will be:
+https://christian-n-tchana.github.io/assets/urban-birds-poster.pdf
+
+Do not upload copyrighted PDFs without permission. This poster is meant to be publicly viewable and downloadable.
+
+
+## Atlas poster intégré
+Le poster fourni est **déjà intégré**, aucune étape supplémentaire pour ajouter le PDF. Les fichiers `assets/atlas-oiseaux-campus-yaounde.png` (aperçu visible directement) et `assets/atlas-oiseaux-campus-yaounde.pdf` (téléchargement) doivent rester ensemble et être ajoutés dans le dossier `assets` du dépôt GitHub.
+
+Pour publier : téléversez `index.html`, `style.css`, `profile.png` à la racine, puis les deux fichiers du dossier `assets/` dans un dossier `assets` au même niveau. Le visuel est affiché immédiatement quand on déplie **Urban greenspaces, avian diversity and zoonotic risk**.
