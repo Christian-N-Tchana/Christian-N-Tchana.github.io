@@ -136,3 +136,9 @@ main p, .project-content p, #about p, .student p {
 
 /* Students have no portrait frames. */
 .student-photo-placeholder{display:none !important}
+
+
+/* Education with academic cap icons */
+.education li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;align-items:start}
+.edu-icon{display:inline-block;font-size:16px;line-height:1.2;transform:translateY(1px)}
+.education strong{display:block;margin-bottom:2px}
