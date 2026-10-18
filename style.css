@@ -103,3 +103,43 @@ footer{font-size:13px;color:var(--muted);text-align:center;background:var(--soft
 .student-body .tag{margin-bottom:4px;display:block}
 .student-body h3{margin:4px 0 7px}
 @media(max-width:760px){.student.student-with-photo{grid-template-columns:1fr}.student-photo{width:100%;max-width:220px;height:auto;aspect-ratio:1/1}}
+
+body{background:#fbfcfd}
+.top{box-shadow:0 8px 22px rgba(26,46,64,.04)}
+.sidebar{background:#ffffff;border:1px solid #e6ecef;border-radius:20px;padding:28px 26px;box-shadow:0 12px 34px rgba(28,48,65,.06);position:sticky;top:96px}
+.portrait{width:228px;height:228px;border-radius:50%;overflow:hidden;background:linear-gradient(180deg,#f4f7f9 0%,#eef2f5 100%);margin:0 auto 20px;border:4px solid #fff;box-shadow:0 10px 28px rgba(32,58,77,.10)}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.sidebar h1{font-size:24px;margin:0 0 10px}
+.role{font-size:14px}
+.affiliation{font-size:12.5px;margin:0 0 22px}
+.aside-section{padding:20px 0}
+.keywords span{border-radius:999px;padding:7px 11px;background:#f4f8fb}
+.profile-links a{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border:1px solid #dde8ee;border-radius:999px;background:#fff}
+main section{padding:22px 0 30px}
+main h2{margin:0 0 14px}
+main p{max-width:78ch}
+.project{border-radius:14px;box-shadow:0 10px 24px rgba(22,42,58,.045);border:1px solid #e3eaee;margin:0 0 14px}
+.project summary{padding:18px 52px 18px 22px}
+.project-name{font-size:16px}
+.project-content{padding:18px 22px 18px}
+.project-meta{margin-bottom:12px !important}
+.project-banner{border-radius:14px;overflow:hidden;box-shadow:0 10px 20px rgba(20,40,58,.06)}
+.project-banner-photo img{width:100%;height:auto;display:block}
+.project-banner figcaption{background:#fff;text-align:left}
+.poster-showcase{border-radius:14px;padding:18px;box-shadow:inset 0 1px 0 rgba(255,255,255,.35)}
+.poster-image-link{border-radius:12px}
+.student-grid{gap:16px}
+.student{border-radius:14px;box-shadow:0 8px 20px rgba(22,42,58,.045);padding:16px 18px}
+.student.student-with-photo{grid-template-columns:180px minmax(0,1fr);gap:20px;align-items:center}
+.student-photo{width:180px;height:180px;border-radius:14px;object-fit:cover;box-shadow:0 8px 22px rgba(23,40,56,.08);background:#edf2f5}
+.student:nth-child(1) .student-photo{object-position:center 18%}
+.student:nth-child(2) .student-photo{object-position:center 20%}
+.student h3{font-size:20px}
+#publications .cite-item{padding:12px 0 13px}
+.contact-list>div,.ref-grid>div{background:#fff;border:1px solid #e5ecef;border-radius:12px;padding:14px;box-shadow:0 6px 16px rgba(26,46,64,.04)}
+.contact-list{grid-template-columns:1fr;gap:10px}
+.contact-list>div{grid-template-columns:92px minmax(0,1fr)}
+.ref-grid{gap:12px}
+footer{margin-top:10px;border-top:1px solid #e5ecef;background:#fff}
+@media(max-width:1000px){.sidebar{position:static}.layout{grid-template-columns:320px minmax(0,1fr)}}
+@media(max-width:760px){.sidebar{padding:22px 20px}.portrait{width:210px;height:210px}.project-banner-photo img{height:auto;max-height:420px;object-fit:cover}.student.student-with-photo{grid-template-columns:1fr;align-items:start}.student-photo{width:100%;max-width:240px;height:auto;aspect-ratio:1/1}.contact-list>div{grid-template-columns:1fr;padding:12px}}
