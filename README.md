@@ -11,3 +11,5 @@ Updated website package.
 - assets/atlas-oiseaux-campus-yaounde.pdf
 
 Upload these files to the root of your GitHub Pages repository, preserving the `assets` folder.
+
+Added: phd-project-photo.png, anaelle-bakami.png, meline-ducept.png

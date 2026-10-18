@@ -94,3 +94,12 @@ main p{margin:0 0 15px;max-width:76ch}
 footer{font-size:13px;color:var(--muted);text-align:center;background:var(--soft);padding:24px 15px}
 @media(max-width:1000px){.layout{grid-template-columns:295px minmax(0,1fr);gap:34px}.affiliation span{white-space:normal}}
 @media(max-width:760px){.layout{display:block;padding:26px 21px 60px}.sidebar{max-width:500px;margin:0 auto 34px}.top-inner{padding:11px 18px}.top nav{gap:12px;overflow-x:auto;flex-wrap:nowrap}.top nav a{white-space:nowrap;font-size:12.5px}.portrait{width:198px;height:198px}.ref-grid{grid-template-columns:1fr}.contact-list>div{grid-template-columns:1fr;gap:2px}main p,.project-content p,.student p{text-align:left}}
+
+.project-banner-photo img{width:100%;max-height:430px;object-fit:cover;object-position:center}
+.student-grid{display:grid;grid-template-columns:1fr;gap:14px}
+.student.student-with-photo{display:grid;grid-template-columns:150px minmax(0,1fr);gap:18px;align-items:start}
+.student-photo{width:150px;height:150px;object-fit:cover;object-position:center;border-radius:10px;border:1px solid var(--line);background:#eef3f6}
+.student-body{min-width:0}
+.student-body .tag{margin-bottom:4px;display:block}
+.student-body h3{margin:4px 0 7px}
+@media(max-width:760px){.student.student-with-photo{grid-template-columns:1fr}.student-photo{width:100%;max-width:220px;height:auto;aspect-ratio:1/1}}
