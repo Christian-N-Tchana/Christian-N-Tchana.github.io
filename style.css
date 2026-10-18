@@ -211,3 +211,13 @@ footer{margin-top:10px;border-top:1px solid #e5ecef;background:#fff}
   .layout-inner .student.student-with-photo {display: block}
   .layout-inner .student-photo {width: 100%; max-width: 240px; height: 200px; margin-bottom: 14px}
 }
+
+/* Proportion corrections */
+.layout-home .page-content{align-self:stretch;padding-top:8px}
+.layout-home .homepage-intro{max-width:none}
+.layout-home .homepage-intro p{max-width:none;margin:0 0 14px;text-align:justify}
+.layout-home .homepage-intro p:last-child{margin-bottom:0}
+.layout-inner .project-content p{max-width:none}
+.layout-inner .project-banner{width:100%;max-width:none}
+.layout-inner .project-content{width:100%}
+@media(max-width:850px){.layout-home .homepage-intro p{text-align:left}}
