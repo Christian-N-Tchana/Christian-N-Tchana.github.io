@@ -1,15 +1,7 @@
-# Christian N. Tchana — Academic Website
+# Christian N. Tchana — Multipage academic website
 
-Updated website package.
+Five separate pages: index.html (Home), projects.html, students.html, publications.html, contact.html. All pages use style.css, profile.png and images/PDF in assets/.
 
-## Included files
-- index.html
-- style.css
-- profile.png
-- assets/phd-farmland-birds.svg
-- assets/atlas-oiseaux-campus-yaounde.png
-- assets/atlas-oiseaux-campus-yaounde.pdf
+Upload all HTML files and style.css/profile.png to the root of your GitHub Pages repository. Upload the assets/ directory maintaining the same file paths. GitHub Pages automatically displays index.html as the homepage.
 
-Upload these files to the root of your GitHub Pages repository, preserving the `assets` folder.
-
-Added: phd-project-photo.png, anaelle-bakami.png, meline-ducept.png
+Check navigation by clicking the tabs in the top menu.

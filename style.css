@@ -143,3 +143,16 @@ main p{max-width:78ch}
 footer{margin-top:10px;border-top:1px solid #e5ecef;background:#fff}
 @media(max-width:1000px){.sidebar{position:static}.layout{grid-template-columns:320px minmax(0,1fr)}}
 @media(max-width:760px){.sidebar{padding:22px 20px}.portrait{width:210px;height:210px}.project-banner-photo img{height:auto;max-height:420px;object-fit:cover}.student.student-with-photo{grid-template-columns:1fr;align-items:start}.student-photo{width:100%;max-width:240px;height:auto;aspect-ratio:1/1}.contact-list>div{grid-template-columns:1fr;padding:12px}}
+
+/* Multi-page academic navigation */
+.top nav a{padding:7px 12px;border-radius:7px;transition:background .15s ease,color .15s ease}
+.top nav a.active,.top nav a[aria-current="page"]{background:#eaf2f7;color:#163b54;font-weight:700}
+.top nav a:hover{background:#f1f6f9;text-decoration:none}
+.page-heading{border-bottom:1px solid var(--line);padding:0 0 15px;margin:0 0 10px}
+.page-heading h1{font-family:"Libre Baskerville",Georgia,serif;font-size:clamp(23px,2.2vw,29px);color:var(--navy);margin:7px 0 0}
+.section-kicker{font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--muted)}
+.page-content section:first-child{padding-top:15px}
+.page-content .homepage-intro{padding-top:5px}
+.page-content{min-height:65vh}
+@media(min-width:1001px){.sidebar{position:sticky;top:90px}}
+@media(max-width:760px){.top nav{overflow-x:auto;flex-wrap:nowrap;padding-bottom:5px}.top nav a{white-space:nowrap}.sidebar{position:static}}
