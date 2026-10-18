@@ -5,3 +5,5 @@ Five separate pages: index.html (Home), projects.html, students.html, publicatio
 Upload all HTML files and style.css/profile.png to the root of your GitHub Pages repository. Upload the assets/ directory maintaining the same file paths. GitHub Pages automatically displays index.html as the homepage.
 
 Check navigation by clicking the tabs in the top menu.
+
+The profile sidebar is displayed on Home only. Other pages use a balanced full-width layout.
