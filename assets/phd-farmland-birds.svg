@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative agricultural landscape with birds</title>
+  <desc id="desc">Stylised farmland landscape with hedgerows, fields and flying birds.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dbeef7"/>
+      <stop offset="100%" stop-color="#f8fbfd"/>
+    </linearGradient>
+    <linearGradient id="field1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#cfe2a8"/>
+      <stop offset="100%" stop-color="#b9cf86"/>
+    </linearGradient>
+    <linearGradient id="field2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ddcf8d"/>
+      <stop offset="100%" stop-color="#ccb870"/>
+    </linearGradient>
+    <linearGradient id="field3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b7d0a1"/>
+      <stop offset="100%" stop-color="#99ba84"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="520" fill="url(#sky)"/>
+  <circle cx="1160" cy="88" r="34" fill="#f3d986" opacity="0.9"/>
+  <path d="M0 295 C180 250, 285 230, 430 250 C620 277, 740 330, 890 322 C1060 312, 1188 252, 1400 278 L1400 520 L0 520 Z" fill="#dbe8c0"/>
+  <path d="M0 340 C220 302, 330 306, 500 330 C690 357, 820 408, 975 398 C1130 388, 1248 328, 1400 352 L1400 520 L0 520 Z" fill="#c9ddab"/>
+  <polygon points="0,365 250,305 510,430 230,520 0,520" fill="url(#field1)"/>
+  <polygon points="250,305 555,275 815,392 510,430" fill="url(#field2)"/>
+  <polygon points="555,275 860,292 1095,418 815,392" fill="url(#field1)"/>
+  <polygon points="860,292 1170,255 1400,390 1095,418" fill="url(#field3)"/>
+  <polygon points="230,520 510,430 792,520" fill="#afc97c"/>
+  <polygon points="510,430 815,392 1090,520 792,520" fill="#d8c37b"/>
+  <polygon points="815,392 1095,418 1400,520 1090,520" fill="#b5c97d"/>
+  <path d="M0 355 C200 324, 370 360, 600 340 S1040 332, 1400 360" fill="none" stroke="#476d44" stroke-width="18" stroke-linecap="round" opacity="0.92"/>
+  <path d="M55 338 q16 -26 34 0 q-14 -10 -34 0z" fill="#334f38"/>
+  <path d="M125 342 q16 -28 34 0 q-14 -11 -34 0z" fill="#334f38"/>
+  <path d="M195 343 q17 -29 37 0 q-15 -11 -37 0z" fill="#334f38"/>
+  <path d="M330 339 q16 -26 34 0 q-14 -10 -34 0z" fill="#334f38"/>
+  <path d="M410 347 q18 -31 38 0 q-16 -12 -38 0z" fill="#334f38"/>
+  <path d="M540 341 q17 -28 36 0 q-15 -10 -36 0z" fill="#334f38"/>
+  <path d="M640 345 q16 -26 34 0 q-14 -10 -34 0z" fill="#334f38"/>
+  <path d="M770 340 q17 -29 36 0 q-15 -11 -36 0z" fill="#334f38"/>
+  <path d="M900 342 q16 -27 35 0 q-15 -11 -35 0z" fill="#334f38"/>
+  <path d="M1030 338 q16 -27 35 0 q-15 -11 -35 0z" fill="#334f38"/>
+  <path d="M1180 334 q17 -29 36 0 q-15 -11 -36 0z" fill="#334f38"/>
+  <g fill="#203749" opacity="0.95">
+    <path d="M230 122 q20 -17 41 0 q-18 -5 -41 0z"/>
+    <path d="M256 119 q20 -17 41 0 q-18 -5 -41 0z"/>
+    <path d="M432 92 q18 -14 36 0 q-16 -5 -36 0z"/>
+    <path d="M454 90 q18 -14 36 0 q-16 -5 -36 0z"/>
+    <path d="M690 144 q18 -16 38 0 q-17 -5 -38 0z"/>
+    <path d="M714 141 q18 -16 38 0 q-17 -5 -38 0z"/>
+    <path d="M935 117 q16 -14 33 0 q-15 -5 -33 0z"/>
+    <path d="M955 115 q16 -14 33 0 q-15 -5 -33 0z"/>
+  </g>
+  <g opacity="0.65">
+    <path d="M0 458 C270 418, 510 418, 760 450 S1160 482, 1400 453" fill="none" stroke="#ffffff" stroke-width="2.2"/>
+    <path d="M0 397 C220 375, 420 384, 670 404 S1095 425, 1400 404" fill="none" stroke="#ffffff" stroke-width="1.8"/>
+  </g>
+</svg>
