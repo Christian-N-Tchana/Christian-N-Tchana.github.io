@@ -221,3 +221,11 @@ footer{margin-top:10px;border-top:1px solid #e5ecef;background:#fff}
 .layout-inner .project-banner{width:100%;max-width:none}
 .layout-inner .project-content{width:100%}
 @media(max-width:850px){.layout-home .homepage-intro p{text-align:left}}
+
+/* Final verified changes */
+.poster-pdf-compact{display:flex;align-items:center;justify-content:space-between;gap:18px;border:1px solid var(--line);border-radius:10px;padding:15px 18px;margin-top:16px;background:#f8fafc}
+.poster-pdf-compact strong{color:var(--navy)}
+.poster-pdf-compact p{margin:3px 0 0;font-size:13px;text-align:left!important;color:var(--muted)}
+.poster-pdf-compact .poster-download{white-space:nowrap}
+.project-article-link{margin:12px 0 0!important;font-size:14px;text-align:left!important}
+@media(max-width:700px){.poster-pdf-compact{flex-direction:column;align-items:flex-start}}
